@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#091310" />
+  <meta name="description" content="MelkoSoft is an independent, early-stage technology startup building DevicePilot — an emerging diagnostic workspace for embedded systems and IoT developers." />
+  <meta property="og:title" content="MelkoSoft — Intelligence for the connected world" />
+  <meta property="og:description" content="Meet DevicePilot. An early-stage initiative to turn embedded-device logs into clear troubleshooting steps." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://melkosoft.net/" />
+  <meta name="color-scheme" content="dark light" />
+  <link rel="canonical" href="https://melkosoft.net/" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <title>MelkoSoft — Build a more connected world</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="nav-wrap container">
+      <a class="brand" href="#top" aria-label="MelkoSoft home">
+        <span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><path d="M8 28V12l12 12 12-12v16" stroke="currentColor" stroke-width="4.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="31.8" cy="9.2" r="3.2" fill="currentColor"/></svg></span>
+        <span>melko<span class="brand-soft">soft</span><span class="brand-dot">.</span></span>
+      </a>
+      <nav class="nav-links" id="nav-links" aria-label="Main navigation">
+        <a href="#product" data-i18n="navProduct">Product</a>
+        <a href="#demo" data-i18n="navDemo">Live demo</a>
+        <a href="#roadmap" data-i18n="navRoadmap">Roadmap</a>
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#contact" class="nav-mobile-contact" data-i18n="navContact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-button" type="button" id="language-toggle" aria-label="Switch language">TR <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m4 6 4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <a class="nav-contact" href="mailto:info@melkosoft.net?subject=Hello%20MelkoSoft" data-i18n="navContact">Let's talk <span aria-hidden="true">↗</span></a>
+        <button class="menu-button" id="menu-button" aria-controls="nav-links" aria-expanded="false" aria-label="Open navigation" type="button"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-gridline" aria-hidden="true"></div>
+      <div class="container hero-container">
+        <div class="hero-copy">
+          <div class="eyebrow hero-eyebrow"><span class="sparkle">✳</span><span data-i18n="heroEyebrow">INDEPENDENT STARTUP · BUILDING IN PUBLIC</span></div>
+          <h1 id="hero-title" data-i18n-html="heroHeading">Make the<br/>connected world<br/><em>make sense.</em></h1>
+          <p class="hero-description" data-i18n="heroDescription">We're building smarter tools for the engineers behind connected devices. Less guesswork, clearer answers, better systems.</p>
+          <div class="hero-buttons">
+            <a class="button button-accent" href="#demo"><span data-i18n="heroCta">Explore the prototype</span> <span class="arrow">↗</span></a>
+            <a class="button button-ghost" href="#vision"><span data-i18n="heroCta2">Our vision</span><span class="arrow">→</span></a>
+          </div>
+          <div class="hero-footnote"><span class="status-pulse" aria-hidden="true"></span><span data-i18n="heroNote">Early-stage venture · DevicePilot in development</span></div>
+        </div>
+        <div class="hero-visual" role="img" aria-label="Illustration of a connected embedded device and its diagnostic signals">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="diagram-float diagram-float-left"><span class="little-led"></span><span>ESP32 / NODE_01</span></div>
+          <div class="diagram-core">
+            <div class="chip-pin pin-left pin-1"></div><div class="chip-pin pin-left pin-2"></div><div class="chip-pin pin-left pin-3"></div>
+            <div class="chip-pin pin-right pin-1"></div><div class="chip-pin pin-right pin-2"></div><div class="chip-pin pin-right pin-3"></div>
+            <span class="chip-top">DEVICEPILOT</span>
+            <svg class="chip-glyph" viewBox="0 0 110 110" fill="none" aria-hidden="true"><path d="M14 70h21L46 35l17 46 13-26h20" stroke="currentColor" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="94" cy="55" r="5" fill="currentColor"/></svg>
+            <span class="chip-label">EDGE / 001</span>
+          </div>
+          <div class="diagram-float diagram-float-right"><span class="tiny-signal">⌁</span><span>TELEMETRY ONLINE</span></div>
+          <div class="diag-bottom"><div class="diag-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span>0101 1010 1100 0111</span></div>
+          <div class="hero-corner one" aria-hidden="true">+</div><div class="hero-corner two" aria-hidden="true">+</div>
+        </div>
+      </div>
+      <div class="hero-bottom container"><span>EST. AS AN INDEPENDENT INITIATIVE</span><span>ENGINEERING × INTELLIGENCE</span><a href="#product" aria-label="Scroll to product">SCROLL TO EXPLORE ↓</a></div>
+    </section>
+
+    <section class="signal-strip" aria-label="Technology focus">
+      <div class="container signal-inner"><span data-i18n="stripLead">BUILT FOR THE HARDWARE-SOFTWARE EDGE</span><div class="signal-tags"><span>ESP32</span><span>LoRaWAN</span><span>MQTT</span><span>UART</span><span>EMBEDDED SYSTEMS</span></div></div>
+    </section>
+
+    <section class="section section-product" id="product" aria-labelledby="product-title">
+      <div class="container">
+        <div class="section-topline"><span class="section-index">01 / PRODUCT</span><span class="section-rule"></span><span class="tiny-label" data-i18n="productTop">OUR FIRST PRODUCT CONCEPT</span></div>
+        <div class="product-intro">
+          <div><div class="eyebrow eyebrow-dark"><span class="mini-dot"></span> DEVICEPILOT</div><h2 id="product-title" data-i18n-html="productHeading">Complex devices.<br/><span>Clearer answers.</span></h2></div>
+          <p data-i18n="productCopy">Firmware failures shouldn't require hours of scrolling through serial logs. DevicePilot is being designed as a focused diagnostics workspace for small embedded and IoT teams.</p>
+        </div>
+        <div class="problem-grid">
+          <article class="problem-card feature-card-one"><span class="feature-no">01</span><div class="feature-icon"><svg viewBox="0 0 32 32" fill="none"><path d="M5 9h22M5 16h15M5 23h19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="25" cy="16" r="3" stroke="currentColor" stroke-width="2"/></svg></div><h3 data-i18n="feature1Title">Bring the logs</h3><p data-i18n="feature1Copy">Start with serial output and connectivity errors, without complex hardware setup.</p><span class="feature-tag">LOG INGESTION / PHASE 1</span></article>
+          <article class="problem-card feature-card-two"><span class="feature-no">02</span><div class="feature-icon"><svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="10" stroke="currentColor" stroke-width="2"/><path d="M16 9v7l5 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div><h3 data-i18n="feature2Title">Find the signal</h3><p data-i18n="feature2Copy">Recognize known error patterns and identify sensible next debugging steps.</p><span class="feature-tag">DIAGNOSTICS / PHASE 1</span></article>
+          <article class="problem-card feature-card-three"><span class="feature-no">03</span><div class="feature-icon"><svg viewBox="0 0 32 32" fill="none"><path d="M8 23c2-7 5-11 8-11s6 4 8 11M7 8l3 2 2-4M21 7l4 2-2 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="13" r="2" fill="currentColor"/></svg></div><h3 data-i18n="feature3Title">Build the intelligence</h3><p data-i18n="feature3Copy">Our roadmap includes Claude-powered, context-aware explanations and actionable reports.</p><span class="feature-tag">CLAUDE API / PLANNED</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-demo" id="demo" aria-labelledby="demo-title">
+      <div class="container">
+        <div class="section-topline section-topline-dark"><span class="section-index">02 / THE LAB</span><span class="section-rule"></span><span class="tiny-label" data-i18n="demoTop">TRY A WORKING MINI PROTOTYPE</span></div>
+        <div class="demo-intro"><div><div class="eyebrow"><span class="sparkle">✳</span><span data-i18n="demoEyebrow">INTERACTIVE EXPERIMENT</span></div><h2 id="demo-title" data-i18n-html="demoHeading">See the signal<br/><em>in the noise.</em></h2></div><p data-i18n="demoCopy">Paste a device log or load a sample. This early, in-browser rule-based prototype recognizes a few common problems and suggests possible checks.</p></div>
+        <div class="workspace">
+          <div class="workspace-header"><span class="workspace-leds"><i></i><i></i><i></i></span><span>DEVICEPILOT / DIAGNOSTIC PLAYGROUND</span><span class="workspace-version">ALPHA / 0.1</span></div>
+          <div class="workspace-tabs" role="group" aria-label="Sample log categories"><button type="button" class="sample-tab active" data-sample="lora" aria-pressed="true">LoRaWAN</button><button type="button" class="sample-tab" data-sample="wifi" aria-pressed="false">Wi-Fi</button><button type="button" class="sample-tab" data-sample="sensor" aria-pressed="false">Sensors</button><button type="button" class="sample-tab" data-sample="brownout" aria-pressed="false">Power</button></div>
+          <div class="workspace-main"><div class="editor-side"><div class="editor-label"><span><span class="green-cursor">▸</span> <span data-i18n="logInput">DEVICE LOG INPUT</span></span><span>TEXT / UTF-8</span></div><label for="log-input" class="sr-only">Device log</label><textarea id="log-input" spellcheck="false" aria-describedby="demo-disclaimer"></textarea><div class="editor-actions"><span class="input-footnote" data-i18n="localOnly">Runs locally. No data is sent to a server.</span><button type="button" class="button button-small button-accent" id="analyze-button"><span data-i18n="analyzeButton">Analyze log</span> <span>↗</span></button></div></div>
+          <div class="results-side" id="results-panel" aria-live="polite"><div class="editor-label"><span><span class="green-cursor">✳</span> <span data-i18n="analysisLabel">DIAGNOSTIC OUTPUT</span></span><span id="result-status">READY</span></div><div class="result-placeholder" id="result-placeholder"><div class="placeholder-rings"><svg viewBox="0 0 72 72" fill="none"><circle cx="36" cy="36" r="29" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 5"/><circle cx="36" cy="36" r="15" stroke="currentColor" stroke-width="1.5"/><path d="M24 36h24M36 24v24" stroke="currentColor" stroke-width="2"/></svg></div><strong data-i18n="placeholderTitle">Waiting for a log</strong><p data-i18n="placeholderCopy">Choose a sample and select “Analyze log” to see the prototype in action.</p></div><div class="result-content" id="result-content" hidden><div class="result-chip" id="result-chip">PATTERN FOUND</div><h3 id="result-heading"></h3><p class="result-summary" id="result-summary"></p><div class="result-next-heading" data-i18n="nextChecks">SUGGESTED NEXT CHECKS</div><ol id="result-actions"></ol><button type="button" id="copy-result" class="copy-result"><span data-i18n="copyResult">Copy diagnosis</span> ↗</button></div></div></div>
+          <div class="workspace-footer" id="demo-disclaimer"><span><span class="footer-sq"></span> <span data-i18n="prototypeDisclaimer">Illustrative, rule-based prototype — NOT connected to Claude API yet.</span></span><span data-i18n="prototypeDisclaimer2">Not a substitute for engineering verification.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-vision" id="vision" aria-labelledby="vision-title"><div class="container vision-layout"><div class="vision-left"><span class="section-index">03 / THE VISION</span><div class="vision-sigil" aria-hidden="true"><span>↗</span></div></div><div class="vision-right"><h2 id="vision-title" data-i18n-html="visionHeading">Great engineering starts with <em>understanding.</em></h2><p data-i18n="visionCopy">The future of connected products should be easier to debug, maintain and trust. We want to give independent developers and smaller hardware teams the kind of insight that used to demand an entire infrastructure team.</p><a href="mailto:info@melkosoft.net?subject=DevicePilot%20Early%20Access" class="inline-link"><span data-i18n="visionLink">Talk to us about early access</span> ↗</a></div></div></section>
+
+    <section class="section section-roadmap" id="roadmap" aria-labelledby="roadmap-title"><div class="container"><div class="section-topline"><span class="section-index">04 / WHAT'S NEXT</span><span class="section-rule"></span><span class="tiny-label" data-i18n="roadmapTop">A REALISTIC PATH FROM IDEA TO PRODUCT</span></div><div class="roadmap-head"><h2 id="roadmap-title" data-i18n-html="roadmapHeading">Small steps.<br/><span>Real progress.</span></h2><p data-i18n="roadmapCopy">We're an early-stage initiative. Here's the direction we're working toward, not a list of completed features.</p></div><div class="roadmap-steps"><article class="roadmap-step"><div class="roadmap-line"><span class="roadmap-circle active">01</span></div><div class="roadmap-content"><span class="roadmap-state current" data-i18n="roadmap1State">CURRENT FOCUS</span><h3 data-i18n="roadmap1Title">Explore & validate</h3><p data-i18n="roadmap1Copy">Test common ESP32/LoRaWAN troubleshooting patterns, publish a lightweight proof of concept and talk to developers.</p></div></article><article class="roadmap-step"><div class="roadmap-line"><span class="roadmap-circle">02</span></div><div class="roadmap-content"><span class="roadmap-state" data-i18n="roadmap2State">PLANNED</span><h3 data-i18n="roadmap2Title">Context-aware diagnosis</h3><p data-i18n="roadmap2Copy">Explore integrating Claude API for richer log interpretation, checklists and technical summaries.</p></div></article><article class="roadmap-step"><div class="roadmap-line"><span class="roadmap-circle">03</span></div><div class="roadmap-content"><span class="roadmap-state" data-i18n="roadmap3State">LONGER-TERM VISION</span><h3 data-i18n="roadmap3Title">Connected fleet insights</h3><p data-i18n="roadmap3Copy">Evaluate secure device telemetry, anomaly histories and remote diagnostics for growing IoT teams.</p></div></article></div></div></section>
+
+    <section class="section section-about" id="about"><div class="container about-grid"><div class="about-stamp"><span class="about-spiral" aria-hidden="true">M<span>✳</span></span><div class="about-stamp-footer">MELKOSOFT / INDEPENDENT VENTURE</div></div><div class="about-copy"><div class="eyebrow eyebrow-dark"><span class="mini-dot"></span><span data-i18n="aboutEyebrow">WHO WE ARE</span></div><h2 data-i18n-html="aboutHeading">Curious builders.<br/><span>Real-world problems.</span></h2><p data-i18n="aboutP1">MelkoSoft is an independent, early-stage software initiative based in Türkiye, founded around an interest in embedded systems, IoT and practical artificial intelligence.</p><p data-i18n="aboutP2">Our initial work draws on hands-on experience with ESP32 development, wireless communication and sensor-based projects. We're taking the first steps toward turning that experience into accessible developer tools.</p><div class="about-note"><span>✳</span><span data-i18n="aboutNote">We're in the exploration and prototyping stage — no claims of a launched commercial product or established customer base.</span></div></div></div></section>
+
+    <section class="section section-contact" id="contact"><div class="container contact-layout"><div><span class="section-index">05 / GET IN TOUCH</span><h2 data-i18n-html="contactHeading">Building something<br/><em>connected?</em></h2><p data-i18n="contactCopy">Are you working with embedded devices, wrestling with logs, or interested in the future of DevicePilot? We'd love to hear from you.</p><a class="contact-email" href="mailto:info@melkosoft.net?subject=Hello%20MelkoSoft">info@melkosoft.net <span>↗</span></a></div><div class="contact-aside"><span class="contact-icon" aria-hidden="true">✳</span><span data-i18n="contactSmall">INDEPENDENT THINKING.<br/>CONNECTED POSSIBILITIES.</span></div></div></section>
+  </main>
+
+  <footer class="footer"><div class="container footer-top"><a href="#top" class="footer-brand" aria-label="Back to top">melkosoft<span>.</span></a><div class="footer-nav"><a href="#product" data-i18n="navProduct">Product</a><a href="#demo" data-i18n="navDemo">Live demo</a><a href="#roadmap" data-i18n="navRoadmap">Roadmap</a><a href="mailto:info@melkosoft.net" data-i18n="navContact">Contact</a></div></div><div class="container footer-bottom"><span>© <span id="year">2026</span> MELKOSOFT. <span data-i18n="footerRights">AN INDEPENDENT EARLY-STAGE INITIATIVE.</span></span><span data-i18n="footerBuild">BUILT WITH CURIOSITY, IN TÜRKİYE.</span></div></footer>
+</body>
+</html>
